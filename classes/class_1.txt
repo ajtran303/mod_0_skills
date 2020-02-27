@@ -1,0 +1,16 @@
+class
+Worker
+
+attributes
+name (string)
+shifts_scheduled (integer)
+hours_worked (float)
+wage_per_hour (float)
+tipped_worker (boolean)
+tips_earned (float)
+
+methods
+greet_guest (use name attribute)
+get_paid (if tipped_worker, then wage_per_hour * hours_worked + tips_earned. else wage_per_hour * hours_worked)
+add_shift (increment shifts_scheduled and hours_worked)
+get_shift_covered (decrement shifts_scheduled and hours_worked)
