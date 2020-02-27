@@ -1,0 +1,14 @@
+class
+Bar
+
+attributes
+alcoholic_drinks (boolean)
+seasonal_drink (string)
+glasses_available (integer)
+seats_available (integer)
+
+methods
+serve_drink (subtract from glasses_available)
+wash_glasses (add to glasses_available)
+add_guest (subtract from seats_available)
+update_seasonal_drink (change seasonal_drink)
