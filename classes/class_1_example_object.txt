@@ -1,0 +1,17 @@
+instance
+Cook
+
+attributes
+name ("Anh")
+shifts_scheduled (4)
+hours_worked (25.5)
+wage_per_hour (16.5)
+tipped_worker (false)
+tips_earned (0.0)
+
+methods
+greet_guest ("I am Anh, I cook here.")
+get_paid (16.5 * 25.5 = 420.75)
+add_shift (4 + 1 = 5, 25.5 + 8.5 = 34)
+get_shift_covered
+(4 - 1 = 3, 25.5 - 8.5 = 17)
