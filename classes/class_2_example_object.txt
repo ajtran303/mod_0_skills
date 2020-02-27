@@ -1,0 +1,14 @@
+instance
+JuiceBar
+
+attributes
+alcoholic_drinks (false)
+seasonal_drink ("Hot Apple Cider")
+glasses_available (20)
+seats_available (4)
+
+methods
+serve_drink (20 - 1 = 19)
+wash_glasses (19 + 1 = 20)
+add_guest (4 - 1 = 3)
+update_seasonal_drink (change from "Hot Apple Cider" to "Lemonade")
